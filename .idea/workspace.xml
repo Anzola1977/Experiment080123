@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b640667-5bbf-470d-8507-d7487bda2f99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Experiment080123.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ChickenEgg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainOneThread.java" afterDir="false" />
+    <list default="true" id="6b640667-5bbf-470d-8507-d7487bda2f99" name="Changes" comment="Second commit">
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Deadlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainTyper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Typer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZooManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +41,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2K2sKF1LrkLP7CtEUW65HHHGLSm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,11 +68,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673183955891</updated>
-      <workItem from="1673183957318" duration="5855000" />
+      <workItem from="1673183957318" duration="6111000" />
+      <workItem from="1673192715142" duration="113000" />
+      <workItem from="1673287776428" duration="918000" />
+      <workItem from="1673420072410" duration="1824000" />
+      <workItem from="1673507713488" duration="3623000" />
+      <workItem from="1673594893875" duration="692000" />
+      <workItem from="1673690545483" duration="3583000" />
+      <workItem from="1673783433643" duration="1737000" />
+      <workItem from="1673809956124" duration="1432000" />
+      <workItem from="1673897300732" duration="904000" />
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <created>1673192679491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673192679491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
 </project>

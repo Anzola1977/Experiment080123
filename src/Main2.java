@@ -8,7 +8,7 @@ public class Main2 extends Thread{
 
             Thread maxFromList = new Thread() {
                 @Override
-                public void run() {
+                public synchronized void run() {
                     List<Integer> numbers = new ArrayList<>();
                     for (int i = 1; i <= 10000000; i++) {
                         numbers.add(i);
@@ -20,7 +20,7 @@ public class Main2 extends Thread{
 
             Thread sortedList = new Thread() {
                 @Override
-                public void run() {
+                public synchronized void run() {
                     List<Integer> unsorted = new ArrayList<>();
                     for (int i = 10000000; i >= 1; i--) {
                         unsorted.add(i);
@@ -32,7 +32,7 @@ public class Main2 extends Thread{
 
             Thread removeFirst = new Thread() {
                 @Override
-                public void run() {
+                public synchronized void run() {
                     List<Integer> list = new ArrayList<>();
                     for (int i = 1; i <= 10000000; i++) {
                         list.add(i);
